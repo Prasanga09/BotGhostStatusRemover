@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 
 app.get("/", (req, res) => {
-  res.send("Its lol everywhere!")
+  res.send("Put what you want here for publishing in the preview website!")
 })
 
 app.listen(3000, () => {
@@ -14,7 +14,7 @@ let client = new Discord.Client()
 
 
 client.on('ready', () => {
- client.user.setActivity(`bit.ly/pd2-bot | z/help`, { type: 'PLAYING'})
+ client.user.setActivity('Bot status set here', { type: 'Type PLAYING, WATCHING or LISTENING here or it will not work'})
 })
 
 client.login(process.env.token);
