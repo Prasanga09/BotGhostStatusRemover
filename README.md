@@ -1,1 +1,1 @@
-# BotGhostStatusRemover
+First, click the code option and select download zip, then the zip file will be downloaded, after that extract it to "BotGhostStatusRemover". Then you can open the java file with any code editor and run it. I recommend using Visual Studio Code, link is here: https://code.visualstudio.com/Download. Finally, setup visual studio code and run the index.js file. Keep your bot formal. Thank you!
